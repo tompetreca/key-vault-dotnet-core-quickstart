@@ -20,7 +20,7 @@ namespace key_vault_dotnet_core_quickstart.Pages
 
         public void OnGet()
         {
-            Message = "My example ConnectionString = " + _configuration["ConnectionString"];
+            Message = "My ConnectionString = " + _configuration["ConnectionString"];
         }
     }
 }
